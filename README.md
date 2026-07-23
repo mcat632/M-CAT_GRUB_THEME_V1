@@ -1,0 +1,1 @@
+# M-CAT_GRUB_THEME_V1
