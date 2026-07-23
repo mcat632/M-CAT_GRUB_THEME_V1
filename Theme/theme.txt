@@ -1,0 +1,41 @@
+# --- Proprietăți Globale (Folosesc ":") ---
+desktop-image: "background.jpg"
+desktop-color: "#0B0E14"
+terminal-font: "sans-14"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+
+# --- Componente Interne (Folosesc "=") ---
++ image {
+  file = "logo.png"
+  left = "5%"
+  top = "10%"
+  width = "35%"
+  height = "80%"
+  align = "left"
+}
+
++ boot_menu {
+  left = "45%"
+  top = "25%"
+  width = "50%"
+  height = "50%"
+  item_font = "sans-14"
+  item_color = "#7E8594"
+  selected_item_color = "#FFFFFF"
+  selected_item_bg_color = "#1F2335"
+  item_spacing = 16
+  item_padding = 8
+}
+
++ label {
+  top = "90%"
+  left = "0"
+  width = "100%"
+  align = "center"
+  text = "Navigare: optiuni | Selectare: Enter"
+  font = "sans-12"
+  color = "#565F89"
+}
