@@ -1,4 +1,3 @@
-# --- Proprietăți Globale (Folosesc ":") ---
 desktop-image: "background.jpg"
 desktop-color: "#0B0E14"
 terminal-font: "sans-14"
@@ -7,7 +6,6 @@ terminal-top: "0"
 terminal-width: "100%"
 terminal-height: "100%"
 
-# --- Componente Interne (Folosesc "=") ---
 + image {
   file = "logo.png"
   left = "5%"
